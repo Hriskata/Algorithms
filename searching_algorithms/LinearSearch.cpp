@@ -7,9 +7,9 @@ int linearSearch(const int* arr, int len, int searched)
 	for (int i = 0; i < len; i++)
 	{
 		if (arr[i] == searched)
-			return i;//връщаме индекса.
+			return i;
 	}
-	return -1;//елементът го няма
+	return -1;
 }
 
 int main()
