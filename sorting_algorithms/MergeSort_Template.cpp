@@ -60,5 +60,4 @@ int main()
     MergeSort<int>(arr, size);
     for (int i = 0; i < 9; i++)
         std::cout << arr[i] << " ";
-    
 }
